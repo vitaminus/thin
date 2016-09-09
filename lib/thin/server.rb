@@ -54,7 +54,7 @@ module Thin
     extend  Forwardable
     
     # Default values
-    DEFAULT_TIMEOUT                        = 30 #sec
+    DEFAULT_TIMEOUT                        = 300 #sec
     DEFAULT_HOST                           = '0.0.0.0'
     DEFAULT_PORT                           = 3000
     DEFAULT_MAXIMUM_CONNECTIONS            = 1024
